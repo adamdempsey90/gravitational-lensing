@@ -72,8 +72,8 @@ def compute_deflection(x,y,**kwargs):
 	r = np.sqrt(axratio*x_new*x_new + y_new * y_new /axratio)
 
 	q = np.sqrt(1./axratio - axratio)
-    softening = (r==0).astype(float)
-    fac_x = x_new/(r + softening)
+	softening = (r == 0).astype(float)
+	fac_x = x_new/(r + softening)
 	fac_y = y_new/(r + softening)
 
 
