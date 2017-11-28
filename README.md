@@ -4,6 +4,7 @@ A jupyter notebook that demonstrates gravitational lensing. The goal is to repro
 To get the widgets in the notebook to work you have to run:
 
 pip install ipywidgets
+
 jupyter nbextension enable --py widgetsnbextension
 
 
